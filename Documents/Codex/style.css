@@ -1,0 +1,108 @@
+/* start body */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(bdy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* end body */
+/* initialize */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* end initialize */
+.all{
+    padding: 100px;
+    display: flex;
+}
+/* start left box  */
+.left{
+    padding: 20px;
+    width: 70%;
+    height:70vh;
+    background-image: url(codexxX-scaled.jpg);
+    background-color: pink;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    line-height: 1.7;
+}
+.left .content .text{
+    text-align: center;
+    
+}
+.left .content .text p{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.left .content .text span{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #FDC30B;
+}
+.logo img{
+    width: 80px;
+
+}
+/* end left box  */
+/* start right box */
+.right{
+    padding: 20px;
+    width: 30%;
+    height:70vh;
+    
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: white;
+}
+
+.right .log{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.right .log input:not(.btn){
+    border-radius: 7px;
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    
+    border:#dddd 1px solid;
+    caret-color:#001F8B;
+}
+.log .btn{
+    
+    width: 106%;
+    padding: 20px;
+    background-color: #FDC30B;
+    color: white;
+    border-radius: 7px;
+    border:white 1px solid;
+    font-weight: 500;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    color: #dddd;
+}
+h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #001F8B;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #001F8B;
+}
+/* end right box */
